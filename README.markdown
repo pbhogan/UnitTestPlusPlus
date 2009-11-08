@@ -2,7 +2,13 @@
 
 ## Overview
 
-UnitTest++ packaged conveniently as an Xcode framework to make adding unit tests to your project that much easier. Just compile and drag the UnitTest++.framework to your /Library/Frameworks folder.
+This project packages UnitTest++ conveniently as an Xcode framework to make adding unit tests to your project that much easier.
+
+## Installation
+
+Open the project, build and drag build/Release/UnitTest++.framework to your /Library/Frameworks folder. Xcode will now see it as an additional framework you can add as a dependency of an existing project.
+
+## Additional Information
 
 UnitTest++ is a lightweight unit testing framework for C++, written and maintained by Noel Llopis and Charles Nicholson.
 
