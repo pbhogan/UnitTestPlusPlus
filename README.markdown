@@ -13,3 +13,5 @@ Open the project, build and drag build/Release/UnitTest++.framework to your /Lib
 UnitTest++ is a lightweight unit testing framework for C++, written and maintained by Noel Llopis and Charles Nicholson.
 
 For more information, please see http://unittest-cpp.sourceforge.net/
+
+An example of how to use it: http://gist.github.com/300883
