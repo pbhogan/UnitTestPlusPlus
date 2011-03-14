@@ -1,9 +1,13 @@
 .DS_Store
+/.DS_Store
+
 .svn
 *.swp
 *~.nib
 
 build/
+*.build
+*.[oa]
 
 *.tm_build_errors
 
@@ -12,3 +16,6 @@ build/
 *.perspectivev3
 *.mode1v3
 *.mode2v3
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/xcuserdata

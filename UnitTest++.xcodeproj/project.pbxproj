@@ -273,7 +273,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 4FADC24608B4156D00ABE55E /* Build configuration list for PBXProject "UnitTest++" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* UnitTest++ */;
 			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
 			projectDirPath = "";
@@ -380,7 +387,7 @@
 		4FADC24708B4156D00ABE55E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEPLOYMENT_LOCATION = NO;
 				DEPLOYMENT_POSTPROCESSING = NO;
 				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
@@ -390,14 +397,14 @@
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
 		4FADC24808B4156D00ABE55E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEPLOYMENT_LOCATION = NO;
 				DEPLOYMENT_POSTPROCESSING = NO;
 				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
@@ -406,7 +413,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "";
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
